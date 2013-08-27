@@ -1,0 +1,7 @@
+repeat: hourly
+type: incremental
+base_backup_dir: data/backups
+incremental_backup_dr: data/backups/inc
+roll_forward_frequency: daily
+
+
